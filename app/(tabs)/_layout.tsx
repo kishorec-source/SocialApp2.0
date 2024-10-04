@@ -45,13 +45,13 @@ export default function TabLayout() {
                 }}
             />
             <Tabs.Screen
-                name="settings"
+                name="update"
                 options={{
-                    title: 'Settings',
+                    title: 'Update',
                     tabBarIcon: ({ color, focused }) => (
                         /* @tutinfo */
                         <Ionicons name={focused ? 'information-circle' : 'information-circle-outline'} color={color} size={24} />
-                        // <Ionicons name="settings" size={24} color="black" />
+                        // <Ionicons name="update" size={24} color="black" />
                     ),
                 }}
             />
